@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootQuiz</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div class="container" style="text-align: center; border: 2px solid black; padding: 15px;">
+        <h1>Marvel Movies Quiz</h1>
+        <div class="container" style="border: 2px dashed black; text-align: center;">
+            <div class="btn-group">
+                <button class="qBtn btn btn-lg btn-primary m-4" num="1">Question #1</button>
+                <button class="qBtn btn btn-lg btn-primary m-4" num="1">Question #2</button>
+                <button class="qBtn btn btn-lg btn-primary m-4" num="1">Question #3</button>
+            </div>
+            <br>
+            <button class="qBtn btn btn-sm btn-danger m-4" num="1">View Answer</button>
+        </div>
+
+        <div class="container" style="border: 2px dashed black; text-align: center; margin-top: 5%; padding: 15px;">
+            <h3>Which actor is part of Marvel?</h3>
+            <div class="btn-group">
+                <button class="btn btn-primary which_actor" choice="0">Chris Rock</button>
+                <button class="btn btn-primary which_actor" choice="1">Chris Evans</button>
+                <button class="btn btn-primary which_actor" choice="2">Ben Affleck</button>
+            </div>
+            <br>
+            <button class="qBtn btn btn-sm btn-danger m-4" num="1">View Answer</button>
+        </div>
+
+        <div class="container" style="border: 2px dashed black; text-align: center; margin-top: 5%; padding: 15px;">
+            <h3>Select all the Villains...</h3>
+            <div class="btn-group-lg btn-group-toggle" data-toggle="buttons">
+                <input type="checkbox" class="btn-check shire" id="thor"  autocomplete="off">
+                <label class="btn btn-outline-info" for="thor">Thor</label>
+                <input type="checkbox" class="btn-check shire" id="Iron Man"  autocomplete="off">
+                <label class="btn btn-outline-info" for="Iron Man" >Iron Man</label>
+                <input type="checkbox" class="btn-check shire" id="thanos" autocomplete="off">
+                <label class="btn btn-outline-info" for="thanos">Thanos</label>
+                <input type="checkbox" class="btn-check shire" id="ultron" autocomplete="off">
+                <label class="btn btn-outline-info" for="ultron">Ultron</label>
+                <input type="checkbox" class="btn-check shire" id="hawkeye" autocomplete="off">
+                <label class="btn btn-outline-info" for="hawkeye">HawkEye</label>
+                <input type="checkbox" class="btn-check shire" id="loki" autocomplete="off">
+                <label class="btn btn-outline-info" for="loki">Loki</label>
+            </div>
+            <br>
+            <button class="qBtn btn btn-sm btn-danger m-4" num="1">View Answer</button> 
+        </div>
+
+        <div class="container" style="border: 2px dashed black; text-align: center; margin-top: 5%; padding: 15px;">
+            <h3>Who wrote the original comics?</h3>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                <input type="radio" name="wizards" id="gandalf" checked>Jim Lee</label>
+                <label class="btn btn-secondary">
+                <input type="radio" name="wizards" id="saruman">Stan Lee</label>
+                <label class="btn btn-secondary">
+                <input type="radio" name="wizards" id="radagast">Alan Moore</label>
+            </div>
+            <br>
+            <button class="qBtn btn btn-sm btn-danger m-4" num="1">View Answer</button> 
+        </div>
+    </div>
+</body>
+</html>
